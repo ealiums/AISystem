@@ -149,7 +149,7 @@ if __name__ == '__main__':
 
 ### 卷积实现原理
 
-下图的卷积层实例中，每次选取输入数据一层的一个窗口（和卷积核一样的宽高），然后和对应的卷积核（$5 \times 5$ 卷积核代表高 5 维宽 5 维的矩阵）进行 [矩阵内积（Dot Product）](https://en.wikipedia.org/wiki/Dot_product) 运算，最后将所有的计算结果与偏置项 $b$ 相加后输出。
+下图的卷积层实例中，每次选取输入数据一层的一个窗口（和卷积核一样的宽高），然后和对应的卷积核（ $5 \times 5$ 卷积核代表高 5 维宽 5 维的矩阵）进行 [矩阵内积（Dot Product）](https://en.wikipedia.org/wiki/Dot_product) 运算，最后将所有的计算结果与偏置项 $b$ 相加后输出。
 
 ```
 import torch
